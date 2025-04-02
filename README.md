@@ -5,9 +5,7 @@
 ## 📌 Quick Start
 ```bash
 # 1. Clone and setup
-git clone https://github.com/yourusername/ai-db-query.git
-cd ai-db-query
-pip install -r requirements.txt
+git clone https://github.com/mahmoudsaadzamel/Q-A-Using-NL-For-SQL-Data.git
 
 # 2. Configure environment
   OPENAI_API_KEY=  "your_openai_key_here"
@@ -15,7 +13,6 @@ pip install -r requirements.txt
 
 # 3. Run API server
 python API.py
-
 
 
 ##🔧 Key Files
