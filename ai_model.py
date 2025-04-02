@@ -3,11 +3,7 @@ from langchain_community.utilities import SQLDatabase
 from langchain_experimental.sql.base import SQLDatabaseChain  # Correct Import
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
-from Sql_connect import get_connection
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
 
 # Set your OpenAI API key
 OPENAI_API_KEY = "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"

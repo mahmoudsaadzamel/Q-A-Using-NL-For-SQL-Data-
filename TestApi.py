@@ -1,7 +1,7 @@
 import requests
 
 def test_api(question):
-    url = "http://localhost:8000/query"
+    url = "http://localhost:8005/query"
     payload = {"question": question}
     
     try:
@@ -16,12 +16,10 @@ def test_api(question):
 
 if __name__ == "__main__":
     test_questions = [
-        "Who are the employees in the IT department?",
-        "What tasks are assigned to Ali Kamal?",
-        "How many pending tasks are there?",
-        "List all completed tasks",
-        "Who was hired most recently?",
-        "Which employees work in Marketing?"
+        "What tasks are assigned to Abeer Hany?",
+        "What is the oldest pending task?",
+        "Which employees work in Operations?",
+        "Which employees were hired before 2023?"
     ]
     
     for question in test_questions:
