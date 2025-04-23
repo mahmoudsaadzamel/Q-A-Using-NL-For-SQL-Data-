@@ -1,6 +1,6 @@
 from langchain_openai import ChatOpenAI
 from langchain_community.utilities import SQLDatabase
-from langchain_experimental.sql.base import SQLDatabaseChain  # Correct Import
+from langchain_experimental.sql.base import SQLDatabaseChain  #
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
 
